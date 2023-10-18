@@ -1,0 +1,358 @@
+.navbar {
+  display: flex;
+  padding: 10px 48px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--neutral-10, #fff);
+  gap: 330px;
+  align-self: stretch;
+  box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo {
+  color: #1d9bf0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.navbar .text-wrapper {
+  color: black;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.096px;
+}
+
+.frame-mid-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.navbar .frame-reglog {
+  display: flex;
+  width: 202px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.navbar .frame-log {
+  display: flex;
+  padding: 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 6px;
+}
+
+.log-text {
+  color: var(--neutral-90, #404040);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.176px;
+  text-decoration: none;
+}
+
+.log-text:hover{
+  color: #0040ff;
+}
+
+.button {
+  border-radius: 12px;
+  background: #5ea1f8;
+}
+
+.reg-text {
+  color: #fff;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.reg-text:hover{
+  background-color: #0040ff;
+  border-radius: 12px;
+}
+
+/*Konten 1*/
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.bg {
+  width: 1280px;
+  height: 600px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.card {
+  display: inline-flex;
+  background-color: #fff;
+  border-radius: 26px 0px 0px 26px;
+  align-items: center;
+  gap: 34px;
+  position: absolute;
+  left: 200px;
+  top: 138px;
+}
+
+.img-card {
+  width: 572px;
+  height: 430px;
+  border-radius: 26px 0px 0px 26px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.frame-card {
+  display: flex;
+  padding: 42px 50px 42px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 176px;
+}
+
+.card-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text-img-1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px 122.222%;
+  letter-spacing: -0.792px;
+}
+.text-img-2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px 122.222%;
+  letter-spacing: -0.792px;
+}
+
+.text-img-3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: thin;
+  font-weight: 400;
+  line-height: 44px 220%; /* 220% */
+  letter-spacing: -0.44px;
+}
+.lihat-selengkapnya {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.176px;
+  display: flex;
+  height: 32px;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+/*Content ke 2*/
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.sec-2-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  width: 1280px;
+  height: 346px;
+  background: #176b87;
+}
+
+.sec-2-text {
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+}
+
+.text-2 {
+  font-family: Mochiy Pop One;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+.text-3 {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -23.25px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.08px;
+  line-height: 16px;
+  margin-top: 4px;
+}
+.span {
+  color: #ffffff;
+}
+
+.text-4 {
+  color: #ff2121;
+  font-family: Mochiy Pop One;
+  font-weight: bolder;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.text-4:hover {
+  color: #fc3131;
+  text-decoration: underline;
+}
+
+/*Footer*/
+
+footer {
+  display: inline-flex;
+  padding: 40px 254px;
+  align-items: flex-start;
+  gap: 518px;
+  border-top: 1px solid #000;
+  border-bottom: 30px solid #2828ec;
+}
+
+.foot-logo {
+  color: #1d9bf0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-self: stretch;
+}
+.loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.pinlog {
+  width: 16px;
+  height: 16px;
+  fill: rgba(0, 0, 0, 0);
+}
+
+.sulsel {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px 133.333%;
+}
+
+.emails .telps {
+  width: 14px;
+  height: 14px;
+  fill: rgba(0, 0, 0, 0);
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.infos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.tentang-kami-kanan {
+  color: #000;
+  text-align: left;
+
+  /* Text M/Medium */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+
+.email-kami {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.telp-kami {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.baris-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.fb .ig .tw .tt {
+  width: 25px;
+  height: 25px;
+  fill: rgba(0, 0, 0, 0);
+}
+
+.foot-kanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}

@@ -1,0 +1,384 @@
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .frame .div {
+    width: 1440px;
+    height: 1355px;
+    position: relative;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 427px;
+    left: 50px;
+    right: 10px;
+    padding-left: 100px;
+  }
+  
+  .frame .rectangle {
+    width: 200%;
+    height: 620px;
+    top: 0;
+    position:relative;
+    left: 0;
+    /* border: 1px solid black; */
+  }
+  
+  .frame .selayar-adalah-pulau {
+    position: absolute;
+    width: 457px;
+    top: 143px;
+    left: 720px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #3d5a98;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .frame .adapun-kecamatan-di {
+    position: absolute;
+    width: 524px;
+    top: 472px;
+    left: 620px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #3d5a98;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .frame .overlap-group {
+    display: flex;
+    padding: 30px 50px;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--neutral-10, #fff);
+    gap: 300px;
+    align-self:auto;
+    box-shadow: 0px 10px 12px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .frame .img {
+    width: 1300px;
+    height: 360px;
+    top: 60px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 429px;
+    height: 94px;
+    top: 278px;
+    left: 433px;
+  }
+  
+  .frame .overlap-group-2 {
+    position: relative;
+    width: 425px;
+    height: 94px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    height: 54px;
+    top: 0;
+    left: 0;
+    text-shadow: 10px 10px 20px #ffffff80;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 40px;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    height: 44px;
+    top: 50px;
+    left: 204px;
+    text-shadow: 0px 20px 10px #0000004c;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    line-height: 38px;
+    white-space: nowrap;
+    margin-top: 15px;
+  }
+  
+  .frame .div-2 {
+    display: flex;
+    width: 1308px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background-color: var(--neutral-10);
+    box-shadow: var(--shadow-navbar);
+  }
+  
+  .frame .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -10px;
+    font-family: "Overpass-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #1d9bf0;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    left: 75px;
+  }
+  
+  .frame .div-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  
+  .frame .div-wrapper-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -10px;
+    font-family: "Lora-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--neutral-100);
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .frame .text-wrapper-4:hover{
+    color: #2828ec;
+    text-decoration: underline;
+  }
+
+  .frame .div-wrapper-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    /* border-bottom-style: solid; */
+    border-color: #000000;
+    text-decoration: underline;
+  }
+  
+  .frame .login-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -15.5px;
+    margin-bottom: -15.5px;
+  }
+  
+  .frame .login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 6px;
+  }
+  
+  .frame .ellipse {
+    position: relative;
+    width: 40px;
+    margin-top: -10px;
+    height: 40px;
+    object-fit: cover;
+    right: 75px;
+    border-radius: 50%;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: "Lora-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--neutral-90);
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px;
+    letter-spacing: -0.18px;
+    line-height: 24px;
+    white-space: nowrap;
+    right: 75px;
+  }
+  
+  .frame .overlap-wrapper {
+    position: absolute;
+    width: 1280px;
+    height: 248px;
+    top: 1107px;
+    left: 46px;
+  }
+  
+  .frame .overlap-2 {
+    position: relative;
+    width: 1282px;
+    height: 249px;
+    top: -1px;
+    left: -1px;
+  }
+  
+  footer {
+    display: flex;
+    padding: 30px 254px;
+    align-items: stretch;
+    gap: 518px;
+    border-top: 1px solid #000;
+    border-bottom: 30px solid #2828ec;
+  }
+  
+  .foot-logo {
+    color: #1d9bf0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: stretch;
+  }
+  .loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  .pinlog {
+    width: 16px;
+    height: 16px;
+    fill: rgba(0, 0, 0, 0);
+  }
+  
+  .sulsel {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px 133.333%;
+  }
+  
+  .emails .telps {
+    width: 14px;
+    height: 14px;
+    fill: rgba(0, 0, 0, 0);
+  }
+  
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .infos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+  }
+  
+  .tentang-kami-kanan {
+    color: #000;
+    text-align: left;
+  
+    /* Text M/Medium */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+  }
+  
+  .email-kami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .telp-kami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .baris-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .fb .ig .tw .tt {
+    width: 25px;
+    height: 25px;
+    fill: rgba(0, 0, 0, 0);
+  }
+  
+  .foot-kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:23px;
+}

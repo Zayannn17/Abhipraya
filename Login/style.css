@@ -1,0 +1,235 @@
+.log-in {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.log-in .frame-wrapper {
+    background-image: url(./login.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1575px;
+    height: 750px;
+}
+
+.log-in .frame {
+    width: 450px;
+    height: 750px;
+    padding: 0px 10px;
+    left: 1105px;
+    background-color: #3d3d3da8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.log-in .login {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 376.19px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+}
+
+.log-in .div-wrapper {
+    width: 305px;
+    flex: 0 0 auto;
+    margin-top: -24.25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.log-in .text-wrapper {
+    position: relative;
+    flex: 1;
+    height: 87px;
+    margin-top: -1px;
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #1d9bf0;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.log-in .title {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.log-in .div {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    color: var(--neutral-20);
+    font-size: 28px;
+    letter-spacing: -0.59px;
+    line-height: 5px;
+    margin-bottom: 10px;
+}
+
+.log-in .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 10px;
+}
+
+.log-in .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.log-in .input {
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.log-in .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.log-in .input-field {
+    height: 45px;
+    padding: 12px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color:white;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--neutral-50);
+    box-shadow: var(--shadow-3);
+    flex: 1;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--neutral-60);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16x;
+}
+
+.log-in .text-wrapper-4{
+    height: 20px;
+    padding: 10px 147px;
+    position: relative;
+    align-self: stretch;
+    width: 320px;
+    color: white;
+    background-color:#4C4DDC;
+    border-radius: 10px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    line-height: 16x;
+    text-decoration: none;
+}
+
+.log-in .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    cursor: pointer;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: 3%;
+}
+
+.log-in .text-wrapper-4:hover{
+    background-color: #2828ec;
+}
+
+.log-in .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 6px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    overflow: hidden;
+    all: unset;
+    margin-bottom: 4%;
+}
+
+
+.log-in .belum-punya-akun {
+    position: relative;
+    align-self: stretch;
+    margin-bottom: -23.25px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.08px;
+    line-height: 16px;
+    margin-top: 4px;
+}
+
+.log-in .span {
+    color: #ffffff;
+}
+
+
+.log-in .text-wrapper-6 {
+    color: #00aaffc1;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.log-in .text-wrapper-6:hover{
+    color: #2828ec;
+    text-decoration: underline;
+}
